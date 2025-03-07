@@ -20,9 +20,6 @@ import {
 import Link from "next/link";
 
 function UserProfile({ user, repo }) {
-  console.log(user);
-  console.log(repo);
-
   return (
     <Card className="shadow-none border-0 py-4 bg-accent/50 dark:bg-accent/40">
       <CardContent className="flex !pb-4 flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
@@ -92,7 +89,7 @@ function UserProfile({ user, repo }) {
               <div className="w-5 h-5">
                 <MapPinIcon className="size-5" />
               </div>
-              <p className="text-lg line-clamp-1 font-sourceSans">
+              <p className="text-lg line-clamp-1 font-sourceSans text-muted-foreground">
                 {user.location || "Not available"}
               </p>
             </div>
@@ -100,7 +97,7 @@ function UserProfile({ user, repo }) {
               <div className="w-5 h-5">
                 <TwitterIcon className="size-5" />
               </div>
-              <p className="text-lg line-clamp-1 font-sourceSans">
+              <p className="text-lg line-clamp-1 font-sourceSans text-muted-foreground">
                 {user.twitter_username || "Not available"}
               </p>
             </div>
@@ -108,7 +105,7 @@ function UserProfile({ user, repo }) {
               <div className="w-5 h-5">
                 <LinkIcon className="size-5" />
               </div>
-              <p className="text-lg line-clamp-1 font-sourceSans">
+              <p className="text-lg line-clamp-1 font-sourceSans text-muted-foreground">
                 {user.blog || "Not available"}
               </p>
             </div>
@@ -116,7 +113,7 @@ function UserProfile({ user, repo }) {
               <div className="w-5 h-5">
                 <Building2Icon className="size-5" />
               </div>
-              <p className="text-lg line-clamp-1 font-sourceSans">
+              <p className="text-lg line-clamp-1 font-sourceSans text-muted-foreground">
                 {user.company || "Not available"}
               </p>
             </div>
