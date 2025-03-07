@@ -22,7 +22,7 @@ Git Finder is a web application designed to search for GitHub user profiles and 
 
 ### Demo
 
-[Live URL](https://amitdeka.github.io/Git-Finder/)
+[Live URL](https://gitfinder-rho.vercel.app/)
 
 ### Usage
 
